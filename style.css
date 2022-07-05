@@ -4,11 +4,11 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 p {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .bd {
@@ -17,16 +17,16 @@ p {
 
 section {
     display: flex;
-
+    margin-bottom: 150;
 }
 
 .link-button {
-    width: 140%;
+    width: 180%;
     padding: 5%;
 }
 
 .link-button img {
-    width: 150%
+    width: 100%
 }
 
 .primary {
@@ -41,4 +41,10 @@ section {
 .banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
