@@ -4,28 +4,32 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 27px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 p {
     font-size: 20px;
 }
 
-.bd {
-    color: red;
+.orange-color {
+    color: orangered;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150;
 }
 
-.link-button {
+.half-width {
     width: 180%;
     padding: 5%;
 }
 
-.link-button img {
+.half-width img {
     width: 100%
 }
 
@@ -43,8 +47,36 @@ section {
     background-repeat: no-repeat;
 }
 
+
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Experiences-Area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiance-item {
+    width: 40%;
+    box-shadow: 10px 10px 50px gray;
+    margin: 10%;
+    padding-left: 10px;
+    border-radius: 6px;
+
+}
+
+#Full-Stack-Web-Developer {
+    border-left: 7px solid tomato;
+}
+
+#Baby-Web-Developer {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
